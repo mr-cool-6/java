@@ -1,0 +1,22 @@
+//A Student 5 subjects Marks, Percentages (100) and Grades (10).
+public class myclass
+{ 
+    public static void main(String[] args)
+    { 
+        String name = "Nagavijay";
+        int first_language = 89;
+        int second_language = 67;
+        int Science   = 74;
+        int Social    = 35;
+        int G_K       = 0;
+        int Total_percentage= ((89+67+74+35+0)/5);
+        float Grade_of_student = (((89+67+74+35+0)/50));
+        System.out.println(first_language);
+        System.out.println(second_language);
+        System.out.println(Science);
+        System.out.println(Social);
+        System.out.println(G_K);
+        System.out.println(Total_percentage);
+        System.out.println(Grade_of_student);
+    }
+}
